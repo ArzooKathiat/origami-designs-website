@@ -1,0 +1,72 @@
+h1{
+ 
+    text-align:center;
+    color:#fd7897;
+ 
+}
+
+
+
+.menu{
+ 
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-image: url(images/pinkOrigami.jpeg);
+    padding: 250px;
+    
+}
+  
+body{
+    background:#ffd1dc;
+    color: #F04763
+    
+}
+
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+    margin: 180px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 150px;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+   
+}
+.origami ol{
+    font-family: fantasy;
+    
+    opacity: 0;
+}
+   .origami:hover{
+
+       transform: scale(1.2);
+   }
+.origami:hover ol{
+        
+      opacity: 1;
+   }
+   
+    
+   a:link{
+    color:#dc1133
+   }
+
+   a:visited{
+    color:#e22645
+   }
